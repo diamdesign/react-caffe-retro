@@ -83,7 +83,7 @@ export function App() {
 
 	return (
 		<>
-			<Navbar />
+			<Navbar contentArray={contentArray} />
 			<SectionHot contentArray={contentArray} />
 			<SectionJuicy contentArray={contentArray} />
 			<SectionCosy contentArray={contentArray} />
