@@ -1,5 +1,5 @@
-export function SectionHot({ contentArray }) {
-	const array = contentArray[0];
+export function Sections({ item }) {
+	const array = item;
 	const listing = array.list;
 
 	return (
@@ -21,4 +21,4 @@ export function SectionHot({ contentArray }) {
 	);
 }
 
-export default SectionHot;
+export default Sections;
